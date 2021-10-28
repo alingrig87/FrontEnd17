@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Link html and css</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<style>
+			p {
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+				font-weight: bold;
+			}
+
+			#embedded {
+				background-color: green;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Inline styling -->
+		<div style="background-color: burlywood">
+			<h2 style="color: blueviolet; background-color: cadetblue">
+				Inline styling
+			</h2>
+			<p>
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
+				perferendis molestias alias temporibus magnam debitis quaerat corporis,
+				sit consectetur non.
+			</p>
+			<a style="background-color: cyan" href="http://google.com"
+				>go to google</a
+			>
+		</div>
+		<!-- embedded styling -->
+		<div id="embedded">
+			<h2>Embedded styling</h2>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, voluptas
+				vitae? Et distinctio illum vitae ipsum quidem eos explicabo neque.
+			</p>
+		</div>
+		<!-- external style -->
+		<div id="external">
+			<h2>External styling</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam unde
+				modi deleniti consequatur corrupti reprehenderit id commodi quae eius
+				cupiditate!
+			</p>
+		</div>
+	</body>
+</html>

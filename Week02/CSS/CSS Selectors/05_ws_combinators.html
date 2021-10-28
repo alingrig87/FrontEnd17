@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Workshop Combinators</title>
+		<style>
+			#container > p > a {
+				color: blue;
+			}
+			#container > p + a {
+				color: green;
+			}
+			div + p > span {
+				color: pink;
+			}
+		</style>
+	</head>
+	<!--a. Style in blue the link to Scoala Informala, and in green the link to
+Google
+b. Style in pink the “some other” span  -->
+	<body>
+		<div id="container">
+			<p class="red">This is some text</p>
+			<p>This is <span>more</span> text</p>
+			<p>Link to <a href="http://scoalainformala.ro">Scoala Informala</a></p>
+			<a href="http://google.com">Google</a>
+		</div>
+		<p>This is <span>some other</span> text</p>
+	</body>
+</html>
