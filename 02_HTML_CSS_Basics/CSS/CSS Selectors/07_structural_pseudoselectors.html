@@ -4,7 +4,27 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Structural Pseudoselectors</title>
-		<style></style>
+		<style>
+			li {
+				list-style: none;
+				/* first child */
+				padding: 3px;
+				text-align: center;
+			}
+			li:first-child {
+				background-color: brown;
+			}
+			/* last child */
+			/* li:last-child(3) {
+				background-color: coral;
+			} */
+			li:nth-child(2n + 1) {
+				background-color: gray;
+			}
+			li:nth-child(2n) {
+				background-color: green;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="container">

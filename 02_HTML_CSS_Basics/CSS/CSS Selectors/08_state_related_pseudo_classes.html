@@ -4,6 +4,30 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>State Related Pseudo classes</title>
+		<style>
+			input[type='text']:enabled {
+				background-color: greenyellow;
+			}
+			input[type='text']:disabled {
+				background-color: hotpink;
+			}
+			input:checked {
+				width: 20px;
+				height: 20px;
+			}
+			/* unvisited */
+			a:link {
+				color: red;
+			}
+			/* a:visited */
+			a:visited {
+				color: hotpink;
+			}
+			/* hover */
+			a:hover {
+				color: indigo;
+			}
+		</style>
 	</head>
 	<body>
 		<form>
