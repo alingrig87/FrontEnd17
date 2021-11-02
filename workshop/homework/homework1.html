@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homework1.css">
+</head>
+<body>
+    <div id="background">
+       <header>
+           <span>Jeremy's Blog</span>
+           <div>
+               <a href="" class="btn">HOME</a>
+               <a href="" class="btn">ABOUT</a>
+               <a href="" class="btn">ARCHIVE</a>
+           </div>
+       </header>
+       <div id="line">
+        </div>
+        <div>
+            <h1 id="h1">Rules for Autocomplete</h1>
+            <span id="span">Posted on March 19, 2019</span>
+        </div>
+        <br>
+        <div>
+            <span id="text">
+                Autocompleting text with known values seems like an easy problem to solve, but so so so many UIs get it wrong. I see this frequently enough that, rather than complain about them individually, I thought I'd just write down the set of rules they often break. <br> <br> There may be cases where some of these rules aren't the best thing to do, but there should be a good reason for breaking one of these rules (for example, some of these rules don't apply if a field must be filled with a value from a fixed set, like the list of US states). Following these rules should always result in at very least a sane experience:
+            </span>
+            <ul id="list">
+                <li>Exact matches always come first. If the user types in an option exactly, other options must always go below the one matching what they typed.</li>
+                <br>
+                <li>Besides exact matches, prefix matches comes first. If I type "Fr" I want "Fresno" not "San Francisco."</li>
+                <br>
+                <li>After prefix matches, it can fall back to substring matches. Starting with substring matches would almost always be the wrong thing to do since users start typing words at the beginning not somewhere in the middle.</li>
+                <br>
+                <li>If there are no substring matches, it can optionally fall back to subsequence matching. This is only useful in some cases.</li>
+                <br>
+                <li>If there are no subsequence/substring matches, it can optionally fall back to approximate matching. This is rarely necessary to provide.</li>
+                <br>
+                <li>Matches should be sorted alphabetically.</li>
+                <br>
+                <li>When an option is the prefix of another, put the <span class="listText">shortest one first.</span></li>
+                <br>
+                <li>The matching should probably be case insensitive unless there are two options that differ only by case. In that case (pun intended), prefer the one that more closely matches the user's input.</li>
+                <br>
+                <li>The action to make use of the selection (e.g. to search the term) must be a different key than the action to accept the first suggestion <span class="listText">unless</span> you have to do something first to start using autocomplete suggestions (e.g. hit the down arrow). The user should never have to take extra steps to <span class="listText">not</span> use autocomplete.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
