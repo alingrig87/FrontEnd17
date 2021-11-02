@@ -1,0 +1,45 @@
+body {
+    background-color: wheat;
+    text-align: left;
+    margin: 40px 300px;
+}
+
+
+#beagle {
+    color: blue;
+}
+
+#line {
+    width: auto;
+    height: auto;
+    border-right: 1px solid gray;
+    margin-left: 100px;
+}
+
+#background {
+    display: flex;
+}
+
+#image-beagle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.details {
+    font-size: large;
+}
+
+#content {
+    margin-left: 30px;
+}
+
+.span {
+    font-size: 18px;
+}
+
+

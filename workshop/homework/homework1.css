@@ -1,0 +1,53 @@
+
+#background {
+    text-align: left;
+    margin: 20px 300px;
+}
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.btn:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+#line {
+    width: auto;
+    height: auto;
+    border-bottom: 1.5px solid black;
+}
+
+#h1 {
+    font-size: x-large;
+    margin-top: 30px;
+}
+
+#span {
+    margin-top: 30px;
+    font-style: italic;
+    color: darkgray;
+}
+
+#text {
+    margin-top: 30px;
+    font-size: large;
+    font-style: initial;
+}
+
+.listText {
+    font-style: italic;
+}
+
+#list {
+    font-style: initial;
+}
