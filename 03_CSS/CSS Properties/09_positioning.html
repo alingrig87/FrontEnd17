@@ -4,7 +4,49 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Positioning</title>
-		<style></style>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+			}
+
+			.box {
+				width: 100px;
+				height: 100px;
+			}
+
+			#box1 {
+				position: static;
+				background-color: darkred;
+			}
+
+			#box2 {
+				position: relative;
+				background-color: darkviolet;
+				top: 20px;
+				left: 20px;
+				z-index: 3;
+			}
+
+			#box3 {
+				position: absolute;
+				background-color: green;
+				top: -20px;
+				z-index: 2;
+			}
+			.container {
+				border: 2px solid black;
+				position: relative;
+			}
+
+			#box5 {
+				position: fixed;
+				background-color: gold;
+			}
+		</style>
 	</head>
 	<body>
 		<div id="box1" class="box"></div>

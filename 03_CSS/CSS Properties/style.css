@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+	font-family: 'Pacifico', cursive;
+}
+
+p {
+	font-size: 0.9em;
+	font-style: oblique;
+	/* text-decoration: line-through; */
+	/* font-weight: bold; */
+	text-shadow: 2px 2px 10px rgb(54, 27, 104);
+	text-transform: capitalize;
+	text-align: justify;
+	letter-spacing: 4px;
+	line-height: 30px;
+}
+
+#align {
+	text-align: justify;
+}
