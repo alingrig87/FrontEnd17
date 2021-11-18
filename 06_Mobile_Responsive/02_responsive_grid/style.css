@@ -1,0 +1,91 @@
+:root {
+	--main-radius: 5px;
+	--main-padding: 5px;
+	--primary-color: rgb(78, 78, 221);
+}
+
+/* * {
+	margin: 0;
+	padding: 0;
+} */
+
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+	height: 98vh;
+	display: grid;
+	gap: 5px;
+	grid-template-rows: 1fr 5fr 4fr 2fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-areas:
+		'navbar navbar navbar navbar'
+		'sidebar main main main'
+		'sidebar section1 section2 section3'
+		'footer footer footer footer';
+}
+
+#nav {
+	grid-area: navbar;
+	background-color: cadetblue;
+	border-radius: var(--main-radius);
+	padding: var(--main-padding);
+}
+
+#main {
+	grid-area: main;
+	background-color: chocolate;
+	border-radius: var(--main-radius);
+	padding: var(--main-padding);
+}
+
+#sidebar {
+	grid-area: sidebar;
+	background-color: lightgreen;
+	border-radius: var(--main-radius);
+	padding: var(--main-padding);
+}
+
+#section1 {
+	grid-area: section1;
+	background-color: lightpink;
+	border-radius: var(--main-radius);
+	padding: var(--main-padding);
+}
+
+#section2 {
+	grid-area: section2;
+	background-color: lime;
+	border-radius: var(--main-radius);
+	padding: var(--main-padding);
+}
+
+#section3 {
+	grid-area: section3;
+	background-color: lemonchiffon;
+	border-radius: var(--main-radius);
+	padding: var(--main-padding);
+}
+
+#footer {
+	grid-area: footer;
+	background-color: lightslategray;
+	border-radius: var(--main-radius);
+	padding: var(--main-padding);
+}
+
+@media (max-width: 500px) {
+	.container {
+		grid-template-areas:
+			'navbar'
+			'sidebar'
+			'main'
+			'section1'
+			'section2'
+			'section3'
+			'footer';
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 3fr 3fr 2fr 2fr 2fr 1fr;
+	}
+}

@@ -1,0 +1,41 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: gray;
+	text-align: center;
+	padding-top: 100px;
+	color: bisque;
+}
+
+h1 {
+	display: none;
+}
+
+/* widescreen */
+@media (min-width: 1201px) {
+	body {
+		background-color: black;
+	}
+	#widescreen h1 {
+		display: block;
+	}
+}
+
+/* normal */
+@media (min-width: 801px) and (max-width: 1200px) {
+	body {
+		background-color: blue;
+	}
+	#normal h1 {
+		display: block;
+	}
+}
+
+/* landscape */
+@media (orientation: landscape) {
+	body {
+		background-color: brown;
+	}
+	#landscape h1 {
+		display: block;
+	}
+}
