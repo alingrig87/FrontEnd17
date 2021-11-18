@@ -1,0 +1,12 @@
+#about {
+	height: 500px;
+	background-color: cyan;
+}
+#contact {
+	height: 600px;
+	background-color: darkgray;
+}
+#projects {
+	height: 800px;
+	background-color: darkorange;
+}

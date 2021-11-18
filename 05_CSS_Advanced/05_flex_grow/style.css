@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	box-sizing: border-box;
+}
+
+.box {
+	border: 1px solid red;
+}
+
+.container {
+	display: flex;
+	border: 2px solid black;
+}
+
+#box4 {
+	flex-grow: 2;
+}
+
+#box3 {
+	flex-grow: 1;
+}
