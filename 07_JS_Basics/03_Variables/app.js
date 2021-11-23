@@ -48,3 +48,20 @@ console.log(s.length);
 var b = true;
 console.log(b);
 console.log(typeof b);
+
+// objects
+var dog = {
+	name: 'Jumbo',
+	rasa: 'pechinez',
+};
+
+console.log(dog.name);
+console.log(dog.rasa);
+
+//<input type="text" id="secondNumber" />
+var input = {
+	type: 'text',
+	id: 'secondNumber',
+};
+
+console.log(input.type);

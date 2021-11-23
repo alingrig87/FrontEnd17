@@ -56,3 +56,8 @@ console.log(true || true);
 
 console.log(2 < 5 && 3 < 4);
 console.log(2 > 3 || 18 > 22);
+
+// ternary operator
+var n = 13;
+var numberType = n % 2 == 0 ? 'The number is even' : 'The number is odd';
+console.log(numberType);
