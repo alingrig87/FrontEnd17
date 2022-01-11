@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Comment Box</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="title">Comment Box</div>
+			<form action="">
+				<div class="name-container item">
+					<label for="name">Name</label>
+					<input type="text" id="name" />
+				</div>
+				<div class="img-container item">
+					<label for="image">Image</label>
+					<input type="text" id="image" />
+				</div>
+				<div class="message-container item">
+					<label for="message">Message</label>
+					<br />
+					<textarea name="" id="message" cols="30" rows="10"></textarea>
+				</div>
+				<div class="submit-container item">
+					<button id="add-comment">Add comment</button>
+				</div>
+			</form>
+			<div class="comments-container">
+				<div class="comment">
+					<div class="user-info">
+						<div class="user-img">
+							<img src="https://avatars.githubusercontent.com/u/1?v=4" />
+						</div>
+						<div class="user-name">
+							<p>mojombo</p>
+						</div>
+					</div>
+
+					<div class="comment-text">
+						<p>This is a comment</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
