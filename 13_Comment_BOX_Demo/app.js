@@ -12,12 +12,12 @@ function addComment(e) {
 	e.preventDefault();
 	console.log('test');
 	var name = document.getElementById('name').value;
-	var img = document.getElementById('image').value;
+	var imgURL = document.getElementById('image').value;
 	var message = document.getElementById('message').value;
 
 	var commentsContainer = document.querySelector('.comments-container');
 
-	var newCommentDiv = createCommentDiv(name, img, message);
+	var newCommentDiv = createCommentDiv(name, imgURL, message);
 	if (newCommentDiv) {
 		console.log(newCommentDiv);
 
@@ -26,8 +26,8 @@ function addComment(e) {
 	clearFields();
 }
 
-function createCommentDiv(name, img, message) {
-	if (isFiledEmpty(name) || isFiledEmpty(img) || isFiledEmpty(message)) {
+function createCommentDiv(name, imgURL, message) {
+	if (isFiledEmpty(name) || isFiledEmpty(imgURL) || isFiledEmpty(message)) {
 		setTimeout(function () {
 			console.log('Please complete all fields'), 3000;
 		});
@@ -36,7 +36,7 @@ function createCommentDiv(name, img, message) {
 	var commentContainer = `<div class="comment">
          <div class="user-info">
             <div class="user-img">
-               <img src=${img}>
+               <img src=${imgURL}>
             </div>
             <div class="user-name">
                <p>${name}</p>

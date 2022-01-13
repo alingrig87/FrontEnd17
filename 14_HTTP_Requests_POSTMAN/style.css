@@ -1,0 +1,15 @@
+#get {
+	background-color: green;
+}
+
+#post {
+	background-color: blue;
+}
+
+#put {
+	background-color: orange;
+}
+
+#delete {
+	background-color: red;
+}

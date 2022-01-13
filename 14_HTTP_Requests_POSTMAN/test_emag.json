@@ -1,0 +1,73 @@
+{
+	"code": 200,
+	"data": {
+		"is_error": false,
+		"estimates": {
+			"courier": [
+				{
+					"locality": {
+						"id": 4966,
+						"name": "Bucure\u015fti",
+						"pickup_points": 106
+					},
+					"region": {
+						"id": 4954,
+						"name": "Bucure\u015fti",
+						"pickup_points": 106
+					},
+					"estimates": {
+						"default": [
+							{
+								"start": "2022-01-17T09:00:00+0200",
+								"stop": "2022-01-18T18:00:00+0200",
+								"index": 1,
+								"is_weekend_delivery": false,
+								"tax": 34.99,
+								"cost": {
+									"total": 34.99,
+									"total_before_discount": 34.99,
+									"additional": 34.99,
+									"formula_type": "EXCEPTION",
+									"day": 0,
+									"interval": 0,
+									"payment_additional": 0,
+									"locality_additional": 15.99,
+									"free_delivery_threshold": 0,
+									"discount": 0,
+									"formula_ids": [109958, 281841, 281846]
+								}
+							}
+						]
+					},
+					"has_weekend": 0,
+					"weekend_delivery_label": "Vreau livrarea duminica",
+					"vendor": {
+						"id": 1,
+						"name": { "default": "eMAG", "display": "eMAG" },
+						"sef_name": "emag",
+						"url": {
+							"path": "/emag/1/v",
+							"desktop_base": "https://www.emag.ro",
+							"mobile_base": "https://www.emag.ro"
+						},
+						"is_fde_eligible": true
+					}
+				}
+			]
+		},
+		"message": "",
+		"has_tax": true,
+		"has_cost": true,
+		"has_easybox": false,
+		"deliveries_sort": [
+			"pickup",
+			"flexible_schedule",
+			"courier_6h",
+			"same_day",
+			"scheduled_delivery",
+			"default"
+		]
+	},
+	"metadata": [],
+	"notifications": null
+}

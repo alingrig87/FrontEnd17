@@ -1,0 +1,268 @@
+{
+	"info": {
+		"_postman_id": "be64200e-423a-4f3a-aa84-7bddd0d63deb",
+		"name": "FrontEnd17 - HTTP Request Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Mock API",
+			"item": [
+				{
+					"name": "GET All Items",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://61e06cc463f8fc001761874a.mockapi.io/products/",
+							"protocol": "https",
+							"host": [
+								"61e06cc463f8fc001761874a",
+								"mockapi",
+								"io"
+							],
+							"path": [
+								"products",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Products By ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				},
+				{
+					"name": "PUT by ID",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Lupu\",\r\n    \"image\": \"https://i.ytimg.com/vi/gwBk-lD-nn0/sddefault.jpg\",\r\n    \"id\": \"5\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://61e0713863f8fc0017618791.mockapi.io/dogs/5",
+							"protocol": "https",
+							"host": [
+								"61e0713863f8fc0017618791",
+								"mockapi",
+								"io"
+							],
+							"path": [
+								"dogs",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST new dog",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\":\"Masha\",\"image\":\"https://content.fun-japan.jp/renewal-prod/cms/articles/content/shutterstock1481706194jpg_2021-03-03-03-15-17.jpg\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://61e0713863f8fc0017618791.mockapi.io/dogs",
+							"protocol": "https",
+							"host": [
+								"61e0713863f8fc0017618791",
+								"mockapi",
+								"io"
+							],
+							"path": [
+								"dogs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete dog by ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://61e0713863f8fc0017618791.mockapi.io/dogs/5",
+							"protocol": "https",
+							"host": [
+								"61e0713863f8fc0017618791",
+								"mockapi",
+								"io"
+							],
+							"path": [
+								"dogs",
+								"5"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "JSON Placeholder API",
+			"item": [
+				{
+					"name": "Get All POSTS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Post by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts/1",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST new comment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"Postman learning22\",\r\n    \"body\":\"This is the first comment POST from Front End 17\",\r\n    \"userId\":2\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Post 1",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts/1",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Post 1",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"userId\": 1,\r\n        \"id\": 1,\r\n        \"title\": \"test\",\r\n        \"body\": \"test\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts/1",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

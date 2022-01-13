@@ -1,0 +1,189 @@
+{
+	"code": 200,
+	"data": {
+		"count": 14,
+		"first_item": {
+			"rating": 5,
+			"is_bought": true,
+			"votes": 5,
+			"current_customer_has_voted": false,
+			"brand_id": 0,
+			"category_id": 0,
+			"type": "REVIEW",
+			"title": "Excelent",
+			"product": {
+				"id": 33955614,
+				"name": "Combina frigorifica Heinner HC-V268F+, 268 l, Iluminare LED, Control mecanic, Termostat ajustabil, Clasa F, H 170 cm, Alb",
+				"part_number_key": "DP4Q17MBM",
+				"image": {
+					"original": "https://s13emagst.akamaized.net/products/19413/19412762/images/res_3a3534f5c37e18993bbf0339a0288d3f.jpg",
+					"resized_images": [
+						{
+							"size": "80x80",
+							"url": "https://s13emagst.akamaized.net/products/19413/19412762/images/res_3a3534f5c37e18993bbf0339a0288d3f.jpg?width=80\u0026height=80\u0026hash=B553798097A1EF4AF4AB56EF87570AC6"
+						},
+						{
+							"size": "350x350",
+							"url": "https://s13emagst.akamaized.net/products/19413/19412762/images/res_3a3534f5c37e18993bbf0339a0288d3f.jpg?width=350\u0026height=350\u0026hash=FD0974FB206553EA164EFDB37C404E71"
+						},
+						{
+							"size": "1000x1000",
+							"url": "https://s13emagst.akamaized.net/products/19413/19412762/images/res_3a3534f5c37e18993bbf0339a0288d3f.jpg?width=1000\u0026height=1000\u0026hash=077A3B726BF82BCB1313AAFCBC4AD300"
+						},
+						{
+							"size": "300x300",
+							"url": "https://s13emagst.akamaized.net/products/19413/19412762/images/res_3a3534f5c37e18993bbf0339a0288d3f.jpg?width=300\u0026height=300\u0026hash=DAC8C034EF2F76BDCA42B6FE7A237564"
+						},
+						{
+							"size": "450x450",
+							"url": "https://s13emagst.akamaized.net/products/19413/19412762/images/res_3a3534f5c37e18993bbf0339a0288d3f.jpg?width=450\u0026height=450\u0026hash=42B4FD615125DF59CEF22777EB575BC5"
+						},
+						{
+							"size": "720x720",
+							"url": "https://s13emagst.akamaized.net/products/19413/19412762/images/res_3a3534f5c37e18993bbf0339a0288d3f.jpg?width=720\u0026height=720\u0026hash=EDF7851A037E6B9B326FFF2A7863BD30"
+						}
+					]
+				},
+				"offer": {
+					"id": 7347497,
+					"price": {
+						"current": 0,
+						"is_min": false,
+						"is_max": false,
+						"legal": 0,
+						"prefix": "Empty prefix",
+						"suffix": "Empty suffix Lei",
+						"is_visible": true,
+						"discount": {
+							"type": "value",
+							"absolute": 901.01,
+							"percent": 46,
+							"is_special": false,
+							"is_visible": true,
+							"is_restricted_from_view": false,
+							"is_max": false,
+							"label": "Diferen\u021b\u0103",
+							"labeled_as_discount": false
+						},
+						"currency": {
+							"id": 23,
+							"name": { "default": "RON", "display": "Lei" }
+						},
+						"recommended_retail_price": { "amount": 1941, "is_visible": true },
+						"lowest_price_30_days": { "amount": 0, "is_visible": false },
+						"initial": 0
+					},
+					"flags": {
+						"is_main": true,
+						"is_used": false,
+						"is_sales": false,
+						"is_active": true,
+						"has_discount": true,
+						"may_be_ordered": true,
+						"has_ecredit": false,
+						"has_bundles": false,
+						"has_gifts": false,
+						"has_bundle_first": false,
+						"is_self_source": false,
+						"has_warranty": false,
+						"has_badges": false,
+						"is_visible": true,
+						"has_services": false,
+						"has_buyback": true,
+						"has_two_hour_delivery": false,
+						"has_same_day_delivery": false,
+						"has_three_hour_delivery": false,
+						"has_free_delivery": false,
+						"has_delivery_estimate": true,
+						"has_pickup": false,
+						"has_unified_badges": false,
+						"has_loyalty_points": false,
+						"has_banners": false,
+						"is_fulfilment_by_emag": false,
+						"show_legal_price": false,
+						"has_free_return": false,
+						"is_open_package": false,
+						"is_bf": false,
+						"has_campaign_badge": false,
+						"is_custom_discount": false,
+						"has_unfair_price": false,
+						"is_genius_eligible": false,
+						"genius_eligibility_type": 0,
+						"has_courier_6h_delivery": false,
+						"only_in_showroom": false
+					}
+				},
+				"url": {
+					"path": "/combina-frigorifica-heinner-268-l-iluminare-led-control-mecanic-termostat-ajustabil-clasa-f-h-170-cm-alb-hc-v268f/pd/DP4Q17MBM/",
+					"desktop_base": "https://www.emag.ro",
+					"mobile_base": "https://www.emag.ro"
+				},
+				"sef_name": "combina-frigorifica-heinner-268-l-iluminare-led-control-mecanic-termostat-ajustabil-clasa-f-h-170-cm-alb-hc-v268f"
+			},
+			"content_no_tags": "Foarte ok!",
+			"moderated_by": "ionut.petrescu@emag.ro",
+			"id": 5889858,
+			"content": "Foarte ok!",
+			"user": {
+				"id": 808303,
+				"hash": "beb576427fc608173cbf84f095986cc9808303032",
+				"name": "Preda Vasilica",
+				"user_avatar": { "initials": "PV", "background_color": "#673ab7" },
+				"nickname": "",
+				"url": {
+					"path": "/product-feedback/user-profile/beb576427fc608173cbf84f095986cc9808303032",
+					"desktop_base": "https://www.emag.ro",
+					"mobile_base": "https://www.emag.ro"
+				},
+				"is_official": false
+			},
+			"is_active": true,
+			"moderation_status": "moderated_accepted",
+			"created": "2021-08-12T07:52:53+00:00",
+			"modified": "2021-08-12T07:52:53+00:00",
+			"published": "2021-08-12T12:49:49+00:00",
+			"deleted": "2021-12-01T00:08:03+00:00",
+			"report_reason": "",
+			"report_reason_description": "",
+			"edit_url": {
+				"path": "/product-feedback/combina-frigorifica-heinner-268-l-iluminare-led-control-mecanic-termostat-ajustabil-clasa-f-h-170-cm-alb-hc-v268f/pd/DP4Q17MBM/review/5889858/edit",
+				"desktop_base": "https://www.emag.ro",
+				"mobile_base": "https://www.emag.ro"
+			},
+			"view_url": {
+				"path": "/product-feedback/combina-frigorifica-heinner-268-l-iluminare-led-control-mecanic-termostat-ajustabil-clasa-f-h-170-cm-alb-hc-v268f/pd/DP4Q17MBM/review/5889858",
+				"desktop_base": "https://www.emag.ro",
+				"mobile_base": "https://www.emag.ro"
+			}
+		},
+		"rating_distribution": { "1": 1, "2": 0, "3": 0, "4": 3, "5": 11 },
+		"add_url": {
+			"path": "/product-feedback/combina-frigorifica-heinner-268-l-iluminare-led-control-mecanic-termostat-ajustabil-clasa-f-h-170-cm-alb-hc-v268f/pd/DP4Q17MBM/review/add",
+			"desktop_base": "https://www.emag.ro",
+			"mobile_base": "https://www.emag.ro"
+		},
+		"view_url": {
+			"path": "/product-feedback/combina-frigorifica-heinner-268-l-iluminare-led-control-mecanic-termostat-ajustabil-clasa-f-h-170-cm-alb-hc-v268f/pd/DP4Q17MBM/reviews",
+			"desktop_base": "https://www.emag.ro",
+			"mobile_base": "https://www.emag.ro"
+		},
+		"sort_options": [
+			{
+				"name": "created",
+				"direction": "desc",
+				"placeholder": "Cele mai noi",
+				"isSelected": false,
+				"isDefault": true
+			},
+			{
+				"name": "votes",
+				"direction": "desc",
+				"placeholder": "Cele mai populare",
+				"isSelected": true,
+				"isDefault": false
+			}
+		]
+	},
+	"metadata": [],
+	"notifications": null
+}
