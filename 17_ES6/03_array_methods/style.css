@@ -1,0 +1,12 @@
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+}
+
+.phone {
+	padding: 10px;
+	border: 2px solid gray;
+	width: 200px;
+	height: 200px;
+}
