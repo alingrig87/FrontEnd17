@@ -1,0 +1,23 @@
+.App {
+	text-align: center;
+}
+
+.card {
+	border: 1px solid gray;
+	border-radius: 20px;
+	height: 300px;
+	width: 200px;
+}
+
+.card img {
+	height: 100px;
+	width: 100px;
+}
+
+.card-container {
+	margin-left: 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	gap: 10px;
+	justify-content: center;
+}
